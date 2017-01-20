@@ -32,8 +32,8 @@ This is what my hack does.
 ssh into your raspiberry
 
 ```
-git clone https://github.com/derekhe/waveshare-7inch-touchscreen-driver
-cd wavesahre-7inch-touchscreen-driver
+git clone https://github.com/Akex2/waveshare-7inch-touchscreen-driver
+cd waveshare-7inch-touchscreen-driver
 chmod +x install.sh
 sudo apt-get update
 sudo ./install.sh
