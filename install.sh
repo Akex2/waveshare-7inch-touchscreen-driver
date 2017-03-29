@@ -12,7 +12,9 @@ sudo apt-get install python3-setuptools
 sudo patch -b /boot/config.txt 7inch.patch
 sudo apt-get install -y python3-pip libudev-dev
 #sudo pip-3.2 install python-uinput pyudev
-#if pip-3.2 can't be found, please use pip3
+#if pip-3.2 can't be found, please use
+pip3 install wheel
+
 sudo pip3 install python-uinput pyudev
 
 #PYTHON_VERSION=`python3 -c 'import sys; print(".".join(map(str, sys.version_info[:3])))'`
